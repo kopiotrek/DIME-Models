@@ -34,7 +34,7 @@ HAND_JOINT_STATE_TOPIC = "/allegroHand/joint_states"
 ARM_JOINT_STATE_TOPIC = "/j2n6s300_driver/out/joint_state"
 
 DATA_PATH = os.path.join(os.path.abspath(os.pardir), "data")
-URDF_PATH = "/home/sridhar/dexterous_arm/ik_stuff/ik_teleop/urdf_template/allegro_right.urdf"
+URDF_PATH = "/home/vm/rpl/DIME-IK-TeleOp/ik_teleop/urdf_template/allegro_right.urdf"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--task', type=str)

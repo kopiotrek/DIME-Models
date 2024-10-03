@@ -49,7 +49,7 @@ class DexArmVINNDeploy():
         self.arm = DexArmControl()
 
         # Initializing Allegro Ik Library
-        self.allegro_ik = AllegroInvKDL(cfg = None, urdf_path = "/home/sridhar/dexterous_arm/ik_stuff/ik_teleop/urdf_template/allegro_right.urdf")
+        self.allegro_ik = AllegroInvKDL(cfg = None, urdf_path = "/home/vm/rpl/DIME-IK-TeleOp/ik_teleop/urdf_template/allegro_right.urdf")
 
         # Initializing INN
         print("Initializing model!") # TODO - put data path
